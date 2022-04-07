@@ -1,6 +1,6 @@
 import express from "express";
 import usersRouter from './routers/usersRouter.js'
-import MongoClient from "./daos/MongoClient.js";
+//import MongoClient from "daos/MongoClient.js";
 
 const app = express()
 const PORT = 8080
